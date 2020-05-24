@@ -12,8 +12,6 @@ $(TARGET): $(OBJS)
 	$(CC) $(OBJS) -o $(TARGET)
 
 clean:
-	@echo $(SOURCES)
-	@echo $(OBJS)
 	@rm -fr *.o main
 
 #############################################################
